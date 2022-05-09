@@ -10,7 +10,7 @@ jobs:
   compile:
     runs-on: ubuntu-latest
     env:
-      DIR: slides # directory where latex project is stored
+      DIR: . # directory where latex project is stored
       FILE: lijoi07 # name of main latex file in DIR
     steps:
       - name: Checkout
